@@ -1,0 +1,33 @@
+{
+  "name": "mongo-crud",
+  "version": "1.0.0",
+  "description": "This is to create a sample crud for forms as we can just clone it and start our restful node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnandBabuS/node-mongo-crud.git"
+  },
+  "keywords": [
+    "CRUD",
+    "NODE",
+    "MONGODB"
+  ],
+  "author": "Anand Babu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnandBabuS/node-mongo-crud/issues"
+  },
+  "homepage": "https://github.com/AnandBabuS/node-mongo-crud#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.4",
+    "nodemon": "^1.14.12"
+  }
+}
